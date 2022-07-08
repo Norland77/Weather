@@ -54,9 +54,6 @@ searchBtn.addEventListener('click', () => {
             document.querySelector(".forecast__date10").innerHTML = data.list[9].dt_txt;
             document.querySelector(".forecast__desc10").innerHTML = data.list[9].weather[0].description;
             document.querySelector(".forecast__temp10").innerHTML = Math.round(data.list[9].main.temp)+ "℃";
-            document.querySelector(".forecast__date11").innerHTML = data.list[10].dt_txt;
-            document.querySelector(".forecast__desc11").innerHTML = data.list[10].weather[0].description;
-            document.querySelector(".forecast__temp11").innerHTML = Math.round(data.list[10].main.temp)+ "℃";
         });
 })
 
